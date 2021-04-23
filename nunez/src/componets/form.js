@@ -37,6 +37,7 @@ export default function OnBordingForm(props){
                         type='text'
                         value={values.name}
                         onChange={onChange}
+                        placeholder='Insert Name'
 
                     />
                 </label>
@@ -48,6 +49,7 @@ export default function OnBordingForm(props){
                         type='email'
                         value={values.email}
                         onChange={onChange}
+                        placeholder='Insert Email'
                     />
                 </label>
 
@@ -55,9 +57,10 @@ export default function OnBordingForm(props){
                     Password
                     <input 
                         name='password'
-                        type='text'
+                        type='password'
                         value={values.password}
                         onChange={onChange}
+                        placeholder='Password'
                     />
                 </label>
 
